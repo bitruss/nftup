@@ -11,6 +11,8 @@ export function Reporter ({ cid, onClose }) {
         <p className='f6 mt1 mb3 truncate'>ipfs://{cid}</p>
         <p className='f4 b mv1'>Gateway URL <CopyButton text={`https://nftstorage.link/ipfs/${cid}`} title='Copy gateway URL to clipboard' /></p>
         <a className='db f6 mt1 mb3 black truncate' href={`https://nftstorage.link/ipfs/${cid}`} target='_blank' rel='noreferrer'>https://nftstorage.link/ipfs/{cid}</a>
+        <p className='f4 b mv1'>Meson URL <CopyButton text={`https://pz-ipfs.meson.network/ipfs/${cid}`} title='Copy gateway URL to clipboard' /></p>
+        <a className='db f6 mt1 mb3 black truncate' href={`https://pz-ipfs.meson.network/ipfs/${cid}`} target='_blank' rel='noreferrer'>https://pz-ipfs.meson.network/ipfs/{cid}</a>
       </div>
     </div>
   )
